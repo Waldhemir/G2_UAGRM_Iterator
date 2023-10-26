@@ -17,7 +17,7 @@ namespace Iterator
         IIterator<T> GetIterator();
     }
 
-    // Creamos el GoogleApi
+    // Creamos el GoogleApi.
     public class GoogleApi : IEnumerableCollection<GoogleUser>
     {
         private readonly List<GoogleUser> googleUsers = new List<GoogleUser>();
@@ -35,7 +35,7 @@ namespace Iterator
         }
     }
 
-    //Creamos la clase GoogleUser
+    //Creamos la clase GoogleUser.
     public class GoogleUser
     {
         public string Name { get; set; }
