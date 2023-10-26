@@ -18,3 +18,15 @@ Que devuelve a todos los usuarios google.
 
 Con esta información se debe:
   Mostrar a todos los clientes de Google
+
+En el futuro la empresa Facebook vio con agrado publicar cierta información de usuarios, por lo que decidio contactar a Alenasoft para, al igual que Google, publicar información. La empresa al contar con un equipo fuerte en POO decidio aceptar.
+
+La estructura del usuario Facebook es la siguiente:
+  
+  class FacebookUser {
+    private String fbName;
+    private String fbUrl;
+  }
+
+Para el acceso a la información Facebook provee el método:
+  public List<FacebookUser> getFacebookUsers();
